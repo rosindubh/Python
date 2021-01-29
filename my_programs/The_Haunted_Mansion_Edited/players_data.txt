@@ -1,0 +1,10 @@
+# phil welsby - 28 jan 2021
+# file to collect player data from The Haunted Mansion Game
+
+
+DATE: (28, 1, 2021)      TIME: (23, 6, 59)      NAME: phil         PLAY or NOT:  y
+DATE: (28, 1, 2021)      TIME: (23, 11, 28)      NAME: phil         PLAY or NOT:  y
+DATE: (29, 1, 2021)      TIME: (0, 31, 18)      NAME: phil         PLAY or NOT:  y
+DATE: (29, 1, 2021)      TIME: (9, 55, 17)      NAME: phil         PLAY or NOT:  y
+DATE: (29, 1, 2021)      TIME: (10, 0, 9)      NAME: y         PLAY or NOT:  y
+DATE: (29, 1, 2021)      TIME: (10, 8, 4)      NAME: c         PLAY or NOT:  n

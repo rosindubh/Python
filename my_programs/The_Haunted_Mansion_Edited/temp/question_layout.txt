@@ -1,0 +1,25 @@
+# phil welsby - 28 jan 2021
+# layout of the list in the function module - this is one item
+# fill in all 4 areas - 
+# (1) Type question here and give 4 answers only one of which is correct
+# (2/3)Fill in correct and incorrect responses
+# put correct letter to match correct answer
+# place list in another list called list_of_questions
+# put a commer at the end of each list inside list_of_questions list
+
+list_of_questions = [] 
+
+['''
+    Type your question here
+
+    A)Answer1                              B)Answer2
+
+    C)Answer3                              D)Answer4
+    ''',
+    '''
+    Correct! Type your response to a correct answer here.
+    ''',
+    '''
+    Incorrect!  Type your response to an incorrect answer here.
+    ''',
+    'b', False]
