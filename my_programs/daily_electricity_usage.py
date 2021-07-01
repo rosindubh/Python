@@ -44,7 +44,7 @@ total_electricity_charges = total_net_cost + vat
 #print('Total Energy Charges           £', total_electricity_charges)
 
 print('Energy Used', total_meter, 'kWh @', cost_per_kWh * 100,'p/kWh   £',cost_of_energy_used)
-print('Standing charge', days, 'days @', standing_charge_per_day * 100, 'p   £',standing_charge)
+print('Standing charge', days, 'days @', standing_charge_per_day * 100, 'p     £',standing_charge)
 print('Subtotal of charges before VAT       £', total_net_cost)
 print('VAT @ 5%                             £', vat)
 print('Total Electricity Charges            £', total_electricity_charges)
@@ -52,4 +52,5 @@ print('Total Electricity Charges            £', total_electricity_charges)
 kWh_average = total_meter/days
 
 print('\nAverage kWh per day for this period is', kWh_average, 'kWh')
+print('\nCost per day £', total_electricity_charges/days)
 print()
