@@ -1,19 +1,32 @@
 # phil welsby - 5 july 2021
 # script to open a dataset and perform basic tests
 
-from os import system
+#from os import system
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+# change directory
+os.chdir('/home/phil/ufo_sightings/csv')
+# clear screen function
+def cls():
+    os.system('clear')
+
 # clear screen
-system('clear')
+cls()
 
 # get path to file
 file = input('Copy path to Dataset file here: ')
 
+# clear screen
+cls()
+
 # create dataframe
-df = pd.read_csv(file)
+df = pd.read_csv(file, low_memory=False)
+
+# print file name
+print('File name is:', file)
 
 # print instructions
 print('''
@@ -22,7 +35,6 @@ NOTE, dataframe will be - df
 Run this program using the -i switch if you haven't already done so!!!
 ''')
 
-# print basic tests
 print('''
 Basic tests run are:
 df.head()
@@ -31,12 +43,19 @@ df.shape
 df.dtypes
 df.isna().sum()
 ''')
+
+# wait
 input('Hit ENTER to continue:')
 
 # clear screen
-system('clear')
+cls()
 
+# print file name
+print('File name is:', file)
+print('current directory is:', os.getcwd())
+print()
 
+# main
 print('df.head()')
 print(df.head())
 print('\ndf.tail()')
@@ -47,4 +66,4 @@ print('\ndf.dtypes')
 print(df.dtypes)
 print('\ndf.isna().sum()')
 print(df.isna().sum())
-
+print()
